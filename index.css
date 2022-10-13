@@ -1,0 +1,169 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* end css reset*/
+
+/*css for the page*/
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+section {
+    margin: 0 auto;
+    padding: 2rem;
+    width: 90%;
+    background-color: #fff;
+}
+
+/*end css for the page*/
+
+/*css for the header*/
+
+nav {
+    padding: 2% 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+
+.yellow {
+    background-color: #F5A623;
+    margin-right: 10%;
+}
+
+/*end css for the header*/
+
+/*css for the title section*/
+
+.cta {
+    position: relative;
+}
+
+.text, .image {
+    display: inline-block;
+}
+
+.image {
+    width: 30%;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.text {
+    width: 55%;
+    margin-left: 35%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top: 60px;
+}
+
+/*end css for the title section*/
+
+/*css for the main section*/
+
+.main {
+    background-color: rgb(20, 84, 195);
+    color: #FFF;
+    padding: 2%;
+}
+
+.info div {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.info img {
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg-img {
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
